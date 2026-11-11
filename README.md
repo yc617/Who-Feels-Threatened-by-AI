@@ -29,12 +29,14 @@ Main findings
 - Age patterns differ for trust and job concern. The average AI trust score rose from 3.93 among developers aged 18–24 to 4.70 among those aged 65 or older. Job-threat perception was highest at 19.5% among developers aged 45–54 and lowest at 10.9% among those aged 65 or older.
 - Internet use alone does not explain job-threat views. Across 65 countries, internet use and job-threat perception had a weak negative correlation (r = -0.32). The relationship was not consistent within GDP groups. In the upper-middle GDP group, the correlation changed from r = 0.39 to r = -0.14 when South Korea was excluded.
 - Concern also varied by job role. Mobile and front-end developers reported the highest job-threat shares in the role comparison, at 25.8% and 24.1%.
+
 Why this matters
 Employers can use these results to start conversations about AI training and career support, especially in roles or groups where concern was higher. They should ask employees what support they need instead of assuming that everyone of a certain age or role feels the same way.
 
 AI companies can explain how accurate their tools are, where they have limits, and how they may change work. Trust in AI and concern about job security should be addressed as separate issues.
 
 Policymakers and educators can consider local job markets, developer roles, and AI adoption when planning workforce programs. Internet access by itself is not a reliable guide to developers’ concerns.
+
 Limitations
 - The results show associations, not cause and effect.
 - Stack Overflow respondents may not represent all developers.
@@ -42,12 +44,12 @@ Limitations
 - Countries had different sample sizes, and some results were sensitive to one country.
 - The survey and internet-use data come from different years.
 - The LLM score is exploratory. It is not an independently validated measure or ground truth.
+
 Reproducing the analysis
 The notebooks use Python and packages such as pandas, NumPy, Matplotlib, and Seaborn. Download the source data from the links above, confirm that you have access to the files used by the notebooks, and run the notebook cells from top to bottom. Update file paths if your data files are stored elsewhere.
+
 Team B04
 - Steven Nguyen
 - Ilya Barymov
 - Yi-Chen Hsu (YC)
 - Muhammad Rafi
-Generative AI disclosure
-Generative AI tools supported code explanation, debugging, and writing edits. The project also used an OpenAI API model to create the exploratory job-concern score described above. This score was used as a supplemental measure, not as ground truth or independent validation.
